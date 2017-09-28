@@ -1,0 +1,108 @@
+*{
+margin:0px;
+padding:0px;
+}
+body{
+	font-family: 'Times New Roman',arial;
+	font-size:18px;	
+}
+input[type='submit']{
+	cursor: pointer;
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	color:#fff;
+	
+}
+
+.content table tr td{
+	padding:0px 10px;
+}
+.content table tr td input[type='text'],
+.content table tr td input[type='password']{
+	width:200px;
+	height:23px;
+	line-height:23px
+}
+.content table tr td input[type='submit']{
+	background-color:#3d9ccd;
+	padding:3px 10px;
+	color:#fff;
+	border: none;
+	margin-top: 10px;
+	float: right;
+	font-size:16px;
+}
+.main{
+	width:800px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.main h2{
+	text-align:center;
+	padding:10px;
+	margin:5px;
+}
+.manu {
+	background:#ededed;
+	overflow:hidden;
+	margin-bottom: 5px;
+}
+.manu ul{
+	margin:0;
+	padding:0px;
+	list-style:none;
+}
+.manu ul li{
+	float:left;
+	border-right:1px solid #ddd;
+}
+.manu ul li a{
+	display:block;
+	text-decoration:none;
+	color:#000;
+	padding:10px;
+}
+.manu ul li a:hover{
+	color:red;
+	background-color:green;
+	border-radius: 5px 0 5px 0;
+}
+.content{
+	text-align:center;
+	color:green;
+	min-height: 400px;
+	background-color: #e1e1e1;
+
+}
+.footer{
+	background-color:#ededed;
+	padding:10px;
+	text-align:center;
+	margin-top:5px;
+}
+.back{
+	margin:10px
+}
+
+table.tbl2{
+	margin-top: 10px;
+}
+table.tbl2 tr td{
+	text-align: center;
+	padding: 3px;
+}
+table.tbl2 tr th{
+	background-color: #3d9ccd;
+	color: #fff;
+	padding: 3px;
+}
+table.tbl2 tr:nth-child(2n+1) td{
+	background-color: #d9dad9;
+}
+table.tbl2 tr:nth-child(2n) td{
+	background-color: #d2d3d1;
+}
+table.tbl2 tr td a{
+	color: #70726e;
+	text-decoration: none;
+}
